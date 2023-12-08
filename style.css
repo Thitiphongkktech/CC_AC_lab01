@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(180, 117, 29);
+    position: absolute;
+    inset : 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 250px;
+    /* height: 260px; */
+    background-color: rgb(255, 230, 181);
+    position: relative;
+    padding-top: 1.5rem;
+    border-radius: 8px;
+}
+
+.close {
+    position: absolute;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    top: -4px;
+    left: 4px;
+}
+.badge {
+    position: absolute;
+    top: -12px;
+    right:-12px;
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.card img {
+    width: 100%;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+    padding: 15px;
+}
+.card h4 {
+    text-align: center;
+    padding-block: 1.5rem;
+    border-top: 1px solid #ccc;
+}
